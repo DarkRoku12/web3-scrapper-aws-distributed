@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "Web3 Assets Service (prod)",
+      "interpreter": "node",
+      "interpreter_args": "--import tsx",
+      "script": "./server.ts",
+      "exec_mode": "cluster",
+      "instances": 2,
+      "watch": false,
+      "max_memory_restart": "512M",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 7010
+      }
+    }
+  ]
+}

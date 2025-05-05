@@ -1,0 +1,31 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx worker.ts",
+    "dev": "tsx --watch worker.ts",
+    "gen-parquet": "tsx --watch parquet.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.802.0",
+    "@aws-sdk/lib-storage": "^3.802.0",
+    "@dsnp/parquetjs": "^1.8.6",
+    "@duckdb/node-api": "1.2.2-alpha.18",
+    "axios": "^1.9.0",
+    "dotenv-flow": "^4.1.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/dotenv-flow": "^3.3.3",
+    "@types/node": "^22.15.3",
+    "aws-sdk": "^2.1692.0",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@8.10.5",
+  "engines": {
+    "node": ">=23.0.0"
+  },
+  "pnpm": {
+    "neverBuiltDependencies": []
+  }
+}

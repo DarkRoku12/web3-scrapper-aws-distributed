@@ -1,0 +1,19 @@
+{
+  "author": "DarkRoku12",
+  "name": "aws-fargate-scheduler",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsx bin.ts",
+    "dev": "tsx --watch bin.ts",
+    "test": "tsx bin.ts 0x154120A6aEACd1334204b24dCBA4B7bCe83851d4 1 0 2000"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "dotenv-flow": "^4.1.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}

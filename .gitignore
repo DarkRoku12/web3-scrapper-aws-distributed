@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode/
+.vscode-test
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Env environment variable files
+.env
+.env.*
+!.env.example
+
+# Data files.
+*.parquet
+*.csv
+*.db
+
+# Docker
+docker-compose.yml
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build
+/dist
+/.build
+/.cache
+/.open-api
+**/cdk.out
+
+# Deprecated
+/.old
